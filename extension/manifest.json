@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Page Content Shortener",
+  "version": "1.0",
+  "description": "Displays first 500 characters of the current page",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/icon48.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://localhost:8080/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
