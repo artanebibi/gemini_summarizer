@@ -7,7 +7,7 @@
     "default_icon": "icons/icon48.png"
   },
   "side_panel": {
-    "default_path": "popup.html"
+    "default_path": "frontend.html"
   },
   "permissions": [
     "activeTab",
